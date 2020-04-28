@@ -28,7 +28,12 @@ if len(sys.argv)<3:
 
 ## vars def
 op = sys.argv[1]
-groupSize = int(sys.argv[2])
+try:
+  groupSize = int(sys.argv[2])
+except:
+  print("\n\t\t!!!!   You forgot an argument   !!!\n")
+    howTo()
+    exit()
 num=0
 try:
     num = int(sys.argv[3])
