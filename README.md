@@ -1,6 +1,12 @@
 # FiniteGroupCalc
 Calculates and visualizes the calculation of additive and mutiplicative finite groups. Used for learning and practicing Diffie-Hellman-Key-Exchange.
 ___
+### Preparation:
+ * Install the latest version of Python 3
+ * Also install the pip package called 'tabulate'
+ '''python
+ python -m pip install tabulate
+ '''
 ### How to use
 #### python getOrder.py [ma] [groupSize] [number]
  * Use m or a parameter for multiplicative or additive group.
