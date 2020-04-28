@@ -7,6 +7,7 @@ ___
  * groupSize is NOT the cardinality or the order, it is Z<sub>n</sub> where n is the 'size'.
 
 ### Examples:
+```
 $ python .\getOrder.py m 5              
 #########
 2 * 2 = 4 mod 5
@@ -30,5 +31,6 @@ $ python .\getOrder.py a 2142124 12874
 ord(12874) is: 1071062
 ___
 $ python .\getOrder.py m 521423 21234
-##### Some huge calculation (to be improved)
+##### (huge calculation, to be improved)
 ord(21234) is: 223464
+```
